@@ -1,0 +1,21 @@
+.track {
+  min-width: 300px;
+  background-color: #801336;
+  text-align: center;
+  & img {
+    width: 100%;
+  }
+  &__link {
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+    & a {
+      color: #888888;
+      text-decoration: none;
+    }
+    & a:hover {
+      color: #e8e4e1;
+      // text-decoration: underline;
+    }
+  }
+}

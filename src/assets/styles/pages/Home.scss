@@ -1,0 +1,32 @@
+.header__container {
+  position: fixed;
+  width: 100vw;
+}
+.main {
+  background-color: #000;
+  text-align: center;
+  // position: relative;
+  &__hero {
+    background-color: #000;
+  }
+  &__hero img {
+    min-width: 430px;
+    width: 40%;
+  }
+  &__abaut-me {
+    width: 100px;
+    position: fixed;
+    top: 35vw;
+    left: 47%;
+    & p {
+      color: white;
+      font-size: 2em;
+    }
+  }
+  &__abaut-me a {
+    color: #888888;
+  }
+  &__abaut-me a:hover {
+    border: 1px solid #888888;
+  }
+}

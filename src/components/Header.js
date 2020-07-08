@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import logo from '../assets/static/logo.jpg';
 
 import '../assets/styles/components/Header.scss';
@@ -6,16 +7,25 @@ import '../assets/styles/components/Header.scss';
 const Header = () => {
   return (
     <header className="header">
-      <div className="header__logo">
-        <img src={logo} />
-      </div>
-      <nav className="header__menu">
-        <ul className="header__menu--list">
-          <li>ABOUT ME</li>
-          <li>MUSIC</li>
-          <li>CONTACT</li>
-        </ul>
-      </nav>
+      <ul className="header__menu">
+        <li><Link to="/contact">CONTACT</Link></li>
+        <li><Link to="/music">MUSIC</Link></li>
+        <li className="logo">
+          <Link to="/">
+            <img src={logo} alt="Logo" />
+          </Link>
+        </li>
+        <li>
+          <a href="https://open.spotify.com/artist/78DhFNd9KFhRlJCmlcquj4" target="_blank" >
+            <i className="fab fa-spotify"></i>SPOTIFY
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UC0kb_m7TEqeYANFBgDiPRPA" target="_blank" >
+            <i className="fab fa-youtube"></i>YOUTUBE
+          </a>
+        </li>
+      </ul>
     </header>
   )
 }
