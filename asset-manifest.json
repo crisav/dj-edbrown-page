@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dj-edbrownPage/static/css/main.00be4a9b.chunk.css",
+    "main.js": "/dj-edbrownPage/static/js/main.f2d9c648.chunk.js",
+    "main.js.map": "/dj-edbrownPage/static/js/main.f2d9c648.chunk.js.map",
+    "runtime-main.js": "/dj-edbrownPage/static/js/runtime-main.77f601fe.js",
+    "runtime-main.js.map": "/dj-edbrownPage/static/js/runtime-main.77f601fe.js.map",
+    "static/js/2.20b7e593.chunk.js": "/dj-edbrownPage/static/js/2.20b7e593.chunk.js",
+    "static/js/2.20b7e593.chunk.js.map": "/dj-edbrownPage/static/js/2.20b7e593.chunk.js.map",
+    "index.html": "/dj-edbrownPage/index.html",
+    "precache-manifest.b7c8331ffe2c33e82759ae496a851dc5.js": "/dj-edbrownPage/precache-manifest.b7c8331ffe2c33e82759ae496a851dc5.js",
+    "service-worker.js": "/dj-edbrownPage/service-worker.js",
+    "static/css/main.00be4a9b.chunk.css.map": "/dj-edbrownPage/static/css/main.00be4a9b.chunk.css.map",
+    "static/js/2.20b7e593.chunk.js.LICENSE.txt": "/dj-edbrownPage/static/js/2.20b7e593.chunk.js.LICENSE.txt",
+    "static/media/IMG_1629.jpg": "/dj-edbrownPage/static/media/IMG_1629.a485f254.jpg",
+    "static/media/hero.jpg": "/dj-edbrownPage/static/media/hero.778232f3.jpg",
+    "static/media/logo.jpg": "/dj-edbrownPage/static/media/logo.a2c218a0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77f601fe.js",
+    "static/js/2.20b7e593.chunk.js",
+    "static/css/main.00be4a9b.chunk.css",
+    "static/js/main.f2d9c648.chunk.js"
+  ]
+}
