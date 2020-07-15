@@ -8,7 +8,13 @@ const Track = ({cover, url}) => {
     <div className="track">
       <img src={cover} alt="cover" />
       <div className="track__link">
-        <a href={url} target="_blank" > <i className="far fa-play-circle"></i> Play now </a>
+        <a 
+          href={url} target="_blank"
+          rel="noopener noreferrer"
+          > 
+            <i className="far fa-play-circle"></i> 
+            Play now 
+        </a>
       </div>
     </div>
   );
